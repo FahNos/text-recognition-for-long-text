@@ -1,0 +1,67 @@
+root: ../Union14M-L-LMDB-Filtered
+task: str
+download_links:
+  # train_challenging
+  - https://drive.usercontent.google.com/download?id=1etwzBgGHjsFsb0sygsaRnKbanW2PMe07&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1ly6FJfPjItwGlVQ-ifTrzzM3rVu3Ezhr&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=10Xso9oYHgQf8BdYakD1JAZ8PP213tIQ6&authuser=0&confirm=t
+ 
+  # train_easy
+  - https://drive.usercontent.google.com/download?id=1_zeNluTnywIaa5h3PN-Ah9tKyByypot7&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1caYLeQHDidXgVBDi9IWXbO1gg__DYq9a&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1F0yS9w2pXcSTTiRu39h0dWUGAicoKNsl&authuser=0&confirm=t
+  # train_hard
+  - https://drive.usercontent.google.com/download?id=1eP6s2xyYPZX9gykvWA4VSOc3Fqul_UB_&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1-ZlCvocX8P5uVRclUXp_5DNGLDzd16EO&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=18zZqJNqwKjTHX0JUzANDXr4j4NhBbbHu&authuser=0&confirm=t
+  # train_medium
+  - https://drive.usercontent.google.com/download?id=1s_CoaLNJEr-UxHYiqZ5jOcliMCFiRUUy&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1Wpj6WVpZ5Ily77kVwfQ18CiZBzkgmEnF&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1HkUFfE7KDvafjqlGjE8kaGKAEDKkJ4t9&authuser=0&confirm=t
+  # train_normal
+  - https://drive.usercontent.google.com/download?id=1jPt44arlAswl9cXZjzmVcdpptdTPpJ3I&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1Rfc5kE03AzOUv7B_eYcBhUV8KMQ2MZ1m&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=10ENoRVmYY-Jxvbm3yQLScrNBAv0ZhooC&authuser=0&confirm=t
+  # Vietnamese
+  # - https://download.thigiacmaytinh.com/dataset/dict-guided/vietnamese_original.zip?_gl=1*8igs7e*_ga*MjAwODcxMTcyOC4xNzI0ODUzNTU2*_ga_Z8ZPSWSMNG*MTczNTA5ODc2Mi45LjAuMTczNTA5ODc2Mi4wLjAuMA..&_ga=2.9215413.1296948862.1735048002-2008711728.1724853556
+  # - https://huggingface.co/datasets/FahNos/OCR_ICDAR_English_Handwriting/resolve/main/My%20data%20and%20handwritting%20ICDAR2021.zip?download=true
+  # - https://huggingface.co/datasets/FahNos/OCR_ICDAR_English_Handwriting/resolve/main/Doc_Scan.zip?download=true
+  # Vietnamese OCR
+  - https://drive.usercontent.google.com/download?id=1bt--WTtn54HcIGEhKJn3QaLc7htmg0JG&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1Ki7wTXVOG2WNPQZNBbXRF9ZcPUvL8QoA&authuser=0&confirm=t
+  - https://drive.usercontent.google.com/download?id=1iWBh3uOWcqlUnBKAKmf0mLXMDcWv44aQ&authuser=0&confirm=t
+
+filenames:
+  # train_challenging
+  - ../Union14M-L-LMDB-Filtered/train_challenging/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_challenging/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_challenging/rec_results.txt
+  # train_easy
+  - ../Union14M-L-LMDB-Filtered/train_easy/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_easy/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_easy/rec_results.txt
+  # train_hard
+  - ../Union14M-L-LMDB-Filtered/train_hard/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_hard/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_hard/rec_results.txt
+  # train_medium
+  - ../Union14M-L-LMDB-Filtered/train_medium/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_medium/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_medium/rec_results.txt
+  # train_normal
+  - ../Union14M-L-LMDB-Filtered/train_normal/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_normal/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_normal/rec_results.txt
+  # Vietnamese
+  - ../Union14M-L-LMDB-Filtered/train_vnese/data.mdb
+  - ../Union14M-L-LMDB-Filtered/train_vnese/lock.mdb
+  - ../Union14M-L-LMDB-Filtered/train_vnese/rec_results.txt
+  # - ../vietnamese_original.zip 
+  # - ../ICDAR2021.zip
+  # - ../my_doc_scan.zip
+  # Kaggle Viet OCR
+  # - ../KaggleVietOCR.zip
+
+
+# extraction_paths: ../Raw_vnese_data
+check_validity: true
