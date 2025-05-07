@@ -9,7 +9,7 @@ Global:
   eval_batch_step: [0, 500]
   eval_epoch_step: [0, 1]
   cal_metric_during_train: True
-  pretrained_model: ./pretrained_model/svtr2_small/best.pth
+  pretrained_model: ./pretrained_model/best_l.pth
   # ./output/rec/u14m_filter/svtrv2_rctc/best.pth
   checkpoints:
   use_tensorboard: false
