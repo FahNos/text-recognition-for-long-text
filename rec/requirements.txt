@@ -1,7 +1,0 @@
-imgaug
-lmdb
-pyclipper
-pyyaml
-rapidfuzz
-tqdm
-python-magic
