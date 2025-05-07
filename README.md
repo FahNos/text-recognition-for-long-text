@@ -1,10 +1,10 @@
-# SVTRv2_1 for long text
+# Text regconition for long text
 
 This repository was build on [OpenOCR](https://github.com/Topdu/OpenOCR/tree/main) frame work
 
 I had the change in encoder part and use VNese dataset to training
 
-and the results as below:
+This model can use for English and Vietnamese language
 
 ## Results
 I was implement test follow dataset of OpenOCR, and result as below:
