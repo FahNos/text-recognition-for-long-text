@@ -19,9 +19,12 @@ I was implement test follow dataset of OpenOCR, and result as below:
 - The results show that model SVTR2-1 have best results for long text prediction, even better than [SMTR](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/smtr) model, which have reach 51.0 for long text prediction
 
 ### Dataset
-- I use the dataset with the combinition between Union14M-L  and VNese dataset:
+- I use the dataset with the combinition between Union14M-L  and VNese dataset, and the dataset distribution of ratio between width / heigh as table below:
 
-Ratio	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25
-Q'ty	1089207	 1,021,443 	616312	368025	193172	115090	66546	52600	41872	39601	36012	33008	28284	26111	22702	21252	18781	17418	14904	13633	11611	10364	8704	7486	51701
-percentage	27.74	26.02	15.70	9.37	4.92	2.93	1.70	1.34	1.07	1.01	0.92	0.84	0.72	0.67	0.58	0.54	0.48	0.44	0.38	0.35	0.30	0.26	0.22	0.19	1.32
-![image](https://github.com/user-attachments/assets/b5a279cb-28b3-49e6-81db-66f7bfa1df3f)
+| **Ratio  **    | 1       | 2         | 3      | 4      | 5      | 6      | 7      | 8     | 9     | 10    | 11    | 12    | 13    | 14    | 15    | 16    | 17    | 18    | 19    | 20    | 21    | 22    | 23   | 24   | 25    |
+|------------|---------|-----------|--------|--------|--------|--------|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|------|------|-------|
+| **Qty **       | 180287  | 1102443   | 616312 | 388852 | 281372 | 183585 | 155346 | 55600 | 41072 | 35863 | 16112 | 30108 | 28328 | 26244 | 22112 | 21253 | 18782 | 17818 | 14994 | 15683 | 11812 | 10361 | 3704 | 7885 | 53701 |
+| **Percentage** | 27.74%  | 26.02%    | 15.70% | 9.37%  | 6.92%  | 2.93%  | 2.07%  | 1.34% | 1.07% | 1.01% | 0.92% | 0.84% | 0.72% | 0.67% | 0.58% | 0.56% | 0.48% | 0.44% | 0.38% | 0.35% | 0.30% | 0.26% | 0.12% | 0.19% | 1.32% |
+
+### Usage
+- You can run this model follow 
