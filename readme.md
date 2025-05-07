@@ -27,4 +27,4 @@ I was implement test follow dataset of OpenOCR, and result as below:
 | **Percentage** | 27.74%  | 26.02%    | 15.70% | 9.37%  | 6.92%  | 2.93%  | 2.07%  | 1.34% | 1.07% | 1.01% | 0.92% | 0.84% | 0.72% | 0.67% | 0.58% | 0.56% | 0.48% | 0.44% | 0.38% | 0.35% | 0.30% | 0.26% | 0.12% | 0.19% | 1.32% |
 
 ### Usage
-- You can run this model follow 
+- You can run this model follow this [demo](https://github.com/FahNos/svtr2_1_long_text/blob/main/demo_long_text.ipynb)
