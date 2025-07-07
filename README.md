@@ -11,10 +11,10 @@ I was implement test follow dataset of OpenOCR, and result as below:
 
 |  Model   |  LTB  | IC13<br/>857 | SVT  | IIIT5k<br/>3000 | IC15<br/>1811 | SVTP | CUTE80 |  Avg  |                             Config&Model&Log                              |
 | :------: | :----------------------------------------------------------: | :----------: | :--: | :-------------: | :-----------: | :--: | :----: | :---: | :-----------------------------------------------------------------------: |
-| SVTRv2-T | 47.83 |     98.6     | 96.6 |      98.0       |     88.4      | 90.5 |  96.5  | 94.78 | [Google drive](https://drive.google.com/drive/folders/12ZUGkCS7tEhFhWa2RKKtyB0tPjhH4d9s?usp=drive_link) |
-| SVTRv2-S | 47.57 |     99.0     | 98.3 |      98.5       |     89.5      | 92.9 |  98.6  | 96.13 | [Google drive](https://drive.google.com/drive/folders/1mOG3EUAOsmD16B-VIelVDYf_O64q0G3M?usp=drive_link) |
-| SVTRv2-B | 50.23 |     99.2     | 98.0 |      98.7       |     91.1      | 93.5 |  99.0  | 96.57 | [Google drive](https://drive.google.com/drive/folders/11u11ptDzQ4BF9RRsOYdZnXl6ell2h4jN?usp=drive_link) |
-| SVTRv2-1 | **57.67** |     97.5     | 96.4 |      98.5       |     88.8      | 90.9 |  95.8  | 94.7  | log: [Hugging face](https://huggingface.co/FahNos/text_regconition_svtr2_1_long_text/tree/main/svtrv2_smtr_gtc_rctc_small), pretrain [model](https://huggingface.co/FahNos/text_regconition_svtr2_1_long_text/blob/main/best_l.pth) |
+| SVTRv2-T  | 47.83 |     98.6     | 96.6 |      98.0       |     88.4      | 90.5 |  96.5  | 94.78 | [Google drive](https://drive.google.com/drive/folders/12ZUGkCS7tEhFhWa2RKKtyB0tPjhH4d9s?usp=drive_link) |
+| SVTRv2-S  | 47.57 |     99.0     | 98.3 |      98.5       |     89.5      | 92.9 |  98.6  | 96.13 | [Google drive](https://drive.google.com/drive/folders/1mOG3EUAOsmD16B-VIelVDYf_O64q0G3M?usp=drive_link) |
+| SVTRv2-B  | 50.23 |     99.2     | 98.0 |      98.7       |     91.1      | 93.5 |  99.0  | 96.57 | [Google drive](https://drive.google.com/drive/folders/11u11ptDzQ4BF9RRsOYdZnXl6ell2h4jN?usp=drive_link) |
+| SVTRv2-1  | **57.67** |     97.5     | 96.4 |      98.5       |     88.8      | 90.9 |  95.8  | 94.7  | log: [Hugging face](https://huggingface.co/FahNos/text_regconition_svtr2_1_long_text/tree/main/svtrv2_smtr_gtc_rctc_small), pretrain [model](https://huggingface.co/FahNos/text_regconition_svtr2_1_long_text/blob/main/best_l.pth) |
 
 - The results show that model SVTR2-1 have best results for long text prediction, even better than [SMTR](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/smtr) model, which have reach 51.0 for long text prediction
 
